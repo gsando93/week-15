@@ -14,7 +14,7 @@ import lombok.ToString;
 
 @Entity
 @Data
-public class employee {
+public class Employee {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -24,6 +24,8 @@ public class employee {
 	private String employeeLastName;
 	private String employeePhone;
 	private String employeeJobTitle;
+
+
 
 	@EqualsAndHashCode.Exclude
 	@ToString.Exclude

@@ -24,6 +24,8 @@ public class Customer {
 	private String customerFirstName;
 	private String customerLastName;
 	private String customerEmail;
+
+	
 	
 	@EqualsAndHashCode.Exclude
 	@ToString.Exclude
